@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2311035F204FCB18002FFAC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2311035E204FCB18002FFAC2 /* AppDelegate.swift */; };
+		23110361204FCB18002FFAC2 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23110360204FCB18002FFAC2 /* ChatViewController.swift */; };
+		23110364204FCB18002FFAC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23110362204FCB18002FFAC2 /* Main.storyboard */; };
+		23110367204FCB18002FFAC2 /* CabuChatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23110365204FCB18002FFAC2 /* CabuChatApp.xcdatamodeld */; };
+		23110369204FCB18002FFAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23110368204FCB18002FFAC2 /* Assets.xcassets */; };
+		2311036C204FCB18002FFAC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2311036A204FCB18002FFAC2 /* LaunchScreen.storyboard */; };
+		23110377204FCB18002FFAC2 /* CabuChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23110376204FCB18002FFAC2 /* CabuChatAppTests.swift */; };
+		23110382204FCB18002FFAC2 /* CabuChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23110381204FCB18002FFAC2 /* CabuChatAppUITests.swift */; };
+		23110390204FD20A002FFAC2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2311038F204FD20A002FFAC2 /* LoginVC.swift */; };
+		23110392204FD688002FFAC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23110391204FD688002FFAC2 /* GoogleService-Info.plist */; };
+		23110394204FD7AA002FFAC2 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23110393204FD7AA002FFAC2 /* RoomViewController.swift */; };
+		23110396204FDF09002FFAC2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23110395204FDF09002FFAC2 /* RegisterViewController.swift */; };
+		2320FA3520561BA8007DF0ED /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2320FA3420561BA8007DF0ED /* Room.swift */; };
+		2320FA3720562991007DF0ED /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2320FA3620562991007DF0ED /* RoomTableViewCell.swift */; };
+		55BE10A2E9C5E6FF36D13DCF /* Pods_CabuChatAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE93A6E6A634B3A87552AC5F /* Pods_CabuChatAppTests.framework */; };
+		661A8EA2EC0BF614BC9B3E9D /* Pods_CabuChatAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA0151FE27B262562E24EE3 /* Pods_CabuChatAppUITests.framework */; };
+		BCF81F2679876BC53D8DF968 /* Pods_CabuChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6ADCCDD22A8779BF56254B0 /* Pods_CabuChatApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23110373204FCB18002FFAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23110353204FCB18002FFAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2311035A204FCB18002FFAC2;
+			remoteInfo = CabuChatApp;
+		};
+		2311037E204FCB18002FFAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23110353204FCB18002FFAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2311035A204FCB18002FFAC2;
+			remoteInfo = CabuChatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2311035B204FCB18002FFAC2 /* CabuChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CabuChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2311035E204FCB18002FFAC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23110360204FCB18002FFAC2 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		23110363204FCB18002FFAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23110366204FCB18002FFAC2 /* CabuChatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CabuChatApp.xcdatamodel; sourceTree = "<group>"; };
+		23110368204FCB18002FFAC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2311036B204FCB18002FFAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2311036D204FCB18002FFAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23110372204FCB18002FFAC2 /* CabuChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabuChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23110376204FCB18002FFAC2 /* CabuChatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabuChatAppTests.swift; sourceTree = "<group>"; };
+		23110378204FCB18002FFAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2311037D204FCB18002FFAC2 /* CabuChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabuChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23110381204FCB18002FFAC2 /* CabuChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabuChatAppUITests.swift; sourceTree = "<group>"; };
+		23110383204FCB19002FFAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2311038F204FD20A002FFAC2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		23110391204FD688002FFAC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		23110393204FD7AA002FFAC2 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		23110395204FDF09002FFAC2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2320FA3420561BA8007DF0ED /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		2320FA3620562991007DF0ED /* RoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableViewCell.swift; sourceTree = "<group>"; };
+		4645C72CEA5E40D3AA2CA8F5 /* Pods-CabuChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabuChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CabuChatApp/Pods-CabuChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		4BA0151FE27B262562E24EE3 /* Pods_CabuChatAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CabuChatAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BD44FA81720A699B0A9799 /* Pods-CabuChatAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabuChatAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CabuChatAppUITests/Pods-CabuChatAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		684D8870348D8F105DF40679 /* Pods-CabuChatAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabuChatAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CabuChatAppTests/Pods-CabuChatAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BF55D63CEA59CF7170FFE23 /* Pods-CabuChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabuChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CabuChatApp/Pods-CabuChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7D52917FA0E75F78E794522A /* Pods-CabuChatAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabuChatAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CabuChatAppTests/Pods-CabuChatAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D81659D6351979AB91BD01D5 /* Pods-CabuChatAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabuChatAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CabuChatAppUITests/Pods-CabuChatAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE93A6E6A634B3A87552AC5F /* Pods_CabuChatAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CabuChatAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6ADCCDD22A8779BF56254B0 /* Pods_CabuChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CabuChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23110358204FCB18002FFAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF81F2679876BC53D8DF968 /* Pods_CabuChatApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2311036F204FCB18002FFAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BE10A2E9C5E6FF36D13DCF /* Pods_CabuChatAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2311037A204FCB18002FFAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661A8EA2EC0BF614BC9B3E9D /* Pods_CabuChatAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23110352204FCB18002FFAC2 = {
+			isa = PBXGroup;
+			children = (
+				2311035D204FCB18002FFAC2 /* CabuChatApp */,
+				23110375204FCB18002FFAC2 /* CabuChatAppTests */,
+				23110380204FCB18002FFAC2 /* CabuChatAppUITests */,
+				2311035C204FCB18002FFAC2 /* Products */,
+				36D871B28FE62740836C4A61 /* Pods */,
+				6213F12EF04A6D8AFF439289 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2311035C204FCB18002FFAC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2311035B204FCB18002FFAC2 /* CabuChatApp.app */,
+				23110372204FCB18002FFAC2 /* CabuChatAppTests.xctest */,
+				2311037D204FCB18002FFAC2 /* CabuChatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2311035D204FCB18002FFAC2 /* CabuChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				23110397204FDF93002FFAC2 /* view */,
+				2311035E204FCB18002FFAC2 /* AppDelegate.swift */,
+				23110362204FCB18002FFAC2 /* Main.storyboard */,
+				23110368204FCB18002FFAC2 /* Assets.xcassets */,
+				2311036A204FCB18002FFAC2 /* LaunchScreen.storyboard */,
+				2311036D204FCB18002FFAC2 /* Info.plist */,
+				23110391204FD688002FFAC2 /* GoogleService-Info.plist */,
+				23110365204FCB18002FFAC2 /* CabuChatApp.xcdatamodeld */,
+				2320FA3420561BA8007DF0ED /* Room.swift */,
+			);
+			path = CabuChatApp;
+			sourceTree = "<group>";
+		};
+		23110375204FCB18002FFAC2 /* CabuChatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				23110376204FCB18002FFAC2 /* CabuChatAppTests.swift */,
+				23110378204FCB18002FFAC2 /* Info.plist */,
+			);
+			path = CabuChatAppTests;
+			sourceTree = "<group>";
+		};
+		23110380204FCB18002FFAC2 /* CabuChatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23110381204FCB18002FFAC2 /* CabuChatAppUITests.swift */,
+				23110383204FCB19002FFAC2 /* Info.plist */,
+			);
+			path = CabuChatAppUITests;
+			sourceTree = "<group>";
+		};
+		23110397204FDF93002FFAC2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				23110393204FD7AA002FFAC2 /* RoomViewController.swift */,
+				23110360204FCB18002FFAC2 /* ChatViewController.swift */,
+				23110395204FDF09002FFAC2 /* RegisterViewController.swift */,
+				2311038F204FD20A002FFAC2 /* LoginVC.swift */,
+				2320FA3620562991007DF0ED /* RoomTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		36D871B28FE62740836C4A61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BF55D63CEA59CF7170FFE23 /* Pods-CabuChatApp.debug.xcconfig */,
+				4645C72CEA5E40D3AA2CA8F5 /* Pods-CabuChatApp.release.xcconfig */,
+				684D8870348D8F105DF40679 /* Pods-CabuChatAppTests.debug.xcconfig */,
+				7D52917FA0E75F78E794522A /* Pods-CabuChatAppTests.release.xcconfig */,
+				65BD44FA81720A699B0A9799 /* Pods-CabuChatAppUITests.debug.xcconfig */,
+				D81659D6351979AB91BD01D5 /* Pods-CabuChatAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6213F12EF04A6D8AFF439289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6ADCCDD22A8779BF56254B0 /* Pods_CabuChatApp.framework */,
+				DE93A6E6A634B3A87552AC5F /* Pods_CabuChatAppTests.framework */,
+				4BA0151FE27B262562E24EE3 /* Pods_CabuChatAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2311035A204FCB18002FFAC2 /* CabuChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23110386204FCB19002FFAC2 /* Build configuration list for PBXNativeTarget "CabuChatApp" */;
+			buildPhases = (
+				2F19C0C1ABDD6C0594C29E14 /* [CP] Check Pods Manifest.lock */,
+				23110357204FCB18002FFAC2 /* Sources */,
+				23110358204FCB18002FFAC2 /* Frameworks */,
+				23110359204FCB18002FFAC2 /* Resources */,
+				A24D44DAC87A9C8760C82771 /* [CP] Embed Pods Frameworks */,
+				660CA0ABE9B46D21C26F5826 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CabuChatApp;
+			productName = CabuChatApp;
+			productReference = 2311035B204FCB18002FFAC2 /* CabuChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23110371204FCB18002FFAC2 /* CabuChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23110389204FCB19002FFAC2 /* Build configuration list for PBXNativeTarget "CabuChatAppTests" */;
+			buildPhases = (
+				417890E851117C5A63824D91 /* [CP] Check Pods Manifest.lock */,
+				2311036E204FCB18002FFAC2 /* Sources */,
+				2311036F204FCB18002FFAC2 /* Frameworks */,
+				23110370204FCB18002FFAC2 /* Resources */,
+				8EC6CBBF15D1CE6C8D1AF6B9 /* [CP] Embed Pods Frameworks */,
+				8930E66CE14FDE2BE501EDA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23110374204FCB18002FFAC2 /* PBXTargetDependency */,
+			);
+			name = CabuChatAppTests;
+			productName = CabuChatAppTests;
+			productReference = 23110372204FCB18002FFAC2 /* CabuChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2311037C204FCB18002FFAC2 /* CabuChatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2311038C204FCB19002FFAC2 /* Build configuration list for PBXNativeTarget "CabuChatAppUITests" */;
+			buildPhases = (
+				814C8AD5B0E53DEDB2FD14A3 /* [CP] Check Pods Manifest.lock */,
+				23110379204FCB18002FFAC2 /* Sources */,
+				2311037A204FCB18002FFAC2 /* Frameworks */,
+				2311037B204FCB18002FFAC2 /* Resources */,
+				252D3A029BC9F716C58A4D67 /* [CP] Embed Pods Frameworks */,
+				FAB9D1D8EADDA6D5DE860AF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2311037F204FCB18002FFAC2 /* PBXTargetDependency */,
+			);
+			name = CabuChatAppUITests;
+			productName = CabuChatAppUITests;
+			productReference = 2311037D204FCB18002FFAC2 /* CabuChatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23110353204FCB18002FFAC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tam Tran";
+				TargetAttributes = {
+					2311035A204FCB18002FFAC2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					23110371204FCB18002FFAC2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2311035A204FCB18002FFAC2;
+					};
+					2311037C204FCB18002FFAC2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2311035A204FCB18002FFAC2;
+					};
+				};
+			};
+			buildConfigurationList = 23110356204FCB18002FFAC2 /* Build configuration list for PBXProject "CabuChatApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23110352204FCB18002FFAC2;
+			productRefGroup = 2311035C204FCB18002FFAC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2311035A204FCB18002FFAC2 /* CabuChatApp */,
+				23110371204FCB18002FFAC2 /* CabuChatAppTests */,
+				2311037C204FCB18002FFAC2 /* CabuChatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23110359204FCB18002FFAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2311036C204FCB18002FFAC2 /* LaunchScreen.storyboard in Resources */,
+				23110392204FD688002FFAC2 /* GoogleService-Info.plist in Resources */,
+				23110369204FCB18002FFAC2 /* Assets.xcassets in Resources */,
+				23110364204FCB18002FFAC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23110370204FCB18002FFAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2311037B204FCB18002FFAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		252D3A029BC9F716C58A4D67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CabuChatAppUITests/Pods-CabuChatAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F19C0C1ABDD6C0594C29E14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CabuChatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		417890E851117C5A63824D91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CabuChatAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		660CA0ABE9B46D21C26F5826 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CabuChatApp/Pods-CabuChatApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814C8AD5B0E53DEDB2FD14A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CabuChatAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8930E66CE14FDE2BE501EDA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CabuChatAppTests/Pods-CabuChatAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC6CBBF15D1CE6C8D1AF6B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CabuChatAppTests/Pods-CabuChatAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A24D44DAC87A9C8760C82771 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CabuChatApp/Pods-CabuChatApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CabuChatApp/Pods-CabuChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB9D1D8EADDA6D5DE860AF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CabuChatAppUITests/Pods-CabuChatAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23110357204FCB18002FFAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23110361204FCB18002FFAC2 /* ChatViewController.swift in Sources */,
+				2311035F204FCB18002FFAC2 /* AppDelegate.swift in Sources */,
+				2320FA3720562991007DF0ED /* RoomTableViewCell.swift in Sources */,
+				2320FA3520561BA8007DF0ED /* Room.swift in Sources */,
+				23110390204FD20A002FFAC2 /* LoginVC.swift in Sources */,
+				23110396204FDF09002FFAC2 /* RegisterViewController.swift in Sources */,
+				23110394204FD7AA002FFAC2 /* RoomViewController.swift in Sources */,
+				23110367204FCB18002FFAC2 /* CabuChatApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2311036E204FCB18002FFAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23110377204FCB18002FFAC2 /* CabuChatAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23110379204FCB18002FFAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23110382204FCB18002FFAC2 /* CabuChatAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23110374204FCB18002FFAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2311035A204FCB18002FFAC2 /* CabuChatApp */;
+			targetProxy = 23110373204FCB18002FFAC2 /* PBXContainerItemProxy */;
+		};
+		2311037F204FCB18002FFAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2311035A204FCB18002FFAC2 /* CabuChatApp */;
+			targetProxy = 2311037E204FCB18002FFAC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23110362204FCB18002FFAC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23110363204FCB18002FFAC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2311036A204FCB18002FFAC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2311036B204FCB18002FFAC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23110384204FCB19002FFAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23110385204FCB19002FFAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23110387204FCB19002FFAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF55D63CEA59CF7170FFE23 /* Pods-CabuChatApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = CabuChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtn.CabuChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23110388204FCB19002FFAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4645C72CEA5E40D3AA2CA8F5 /* Pods-CabuChatApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = CabuChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtn.CabuChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2311038A204FCB19002FFAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684D8870348D8F105DF40679 /* Pods-CabuChatAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = CabuChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtn.CabuChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CabuChatApp.app/CabuChatApp";
+			};
+			name = Debug;
+		};
+		2311038B204FCB19002FFAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D52917FA0E75F78E794522A /* Pods-CabuChatAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = CabuChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtn.CabuChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CabuChatApp.app/CabuChatApp";
+			};
+			name = Release;
+		};
+		2311038D204FCB19002FFAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BD44FA81720A699B0A9799 /* Pods-CabuChatAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = CabuChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtn.CabuChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CabuChatApp;
+			};
+			name = Debug;
+		};
+		2311038E204FCB19002FFAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81659D6351979AB91BD01D5 /* Pods-CabuChatAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = CabuChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtn.CabuChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CabuChatApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23110356204FCB18002FFAC2 /* Build configuration list for PBXProject "CabuChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23110384204FCB19002FFAC2 /* Debug */,
+				23110385204FCB19002FFAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23110386204FCB19002FFAC2 /* Build configuration list for PBXNativeTarget "CabuChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23110387204FCB19002FFAC2 /* Debug */,
+				23110388204FCB19002FFAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23110389204FCB19002FFAC2 /* Build configuration list for PBXNativeTarget "CabuChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2311038A204FCB19002FFAC2 /* Debug */,
+				2311038B204FCB19002FFAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2311038C204FCB19002FFAC2 /* Build configuration list for PBXNativeTarget "CabuChatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2311038D204FCB19002FFAC2 /* Debug */,
+				2311038E204FCB19002FFAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23110365204FCB18002FFAC2 /* CabuChatApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23110366204FCB18002FFAC2 /* CabuChatApp.xcdatamodel */,
+			);
+			currentVersion = 23110366204FCB18002FFAC2 /* CabuChatApp.xcdatamodel */;
+			path = CabuChatApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 23110353204FCB18002FFAC2 /* Project object */;
+}
